@@ -26,7 +26,7 @@ public class LoginController {
     @GetMapping("/hello")
     public String get(){
         System.out.println("hello——————————");
-        return "hello nihao ";
+        return "hello nihao  nice ";
     }
 
     @GetMapping("/person/{id}")
